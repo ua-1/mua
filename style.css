@@ -1,0 +1,265 @@
+/*block1*//* after_qbici */
+.b1 {
+    padding: 0;
+}
+.tlt {
+    text-align: center;
+    background: #e8e8e8;
+    padding: 5px 0 13px;
+}
+.tlt h1 {
+    font-size: 38px;
+    color:#eaa938;
+    font-weight: 800;
+    letter-spacing: 4.56px;
+}
+.tlt h1:before,
+.tlt h1:after {
+    content:'';
+    display: inline-block;
+    width: 54px;
+    height: 4px;
+    background: #d7d7d7;
+    position: relative;
+    top:-10px;
+    margin: 0 12px;
+}
+.tlt h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+}
+.offer {
+    background: url("b1.jpg") no-repeat center top;
+    height: 480px;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 15px 13px 0 0;
+}
+.offer b {
+    font-size: 18px;
+}
+.offer p {
+    font-size: 15px;
+}
+.pr {
+    background: #e5e4e4;
+    position: relative;
+    padding-top: 125px;
+}
+.pr a.button-m {
+    margin: 0 auto -38px;
+}
+.stock {
+    text-align: center;
+    padding: 60px 0 35px;
+    background: #d9d8d9;
+    position: relative;
+}
+.stock:after {
+    content:'';
+    display: block;
+    background: url("arrowdown.png") no-repeat center top;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+}
+.stock span {
+    display: inline-block;
+    background: #eaa938;
+    color:#fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 4px 8px;
+}
+.count-tlt {
+    text-align: center;
+    font-size: 14px;
+    padding: 7px 0 15px;
+}
+.sale {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    width: 90px;
+    position: absolute;
+    top:49px;
+    left: 50%;
+    margin-left: -45px;
+}
+.sale p {
+    font-size: 30px;
+    font-weight: 800;
+}
+/*block2*//* endzeit_____ */
+.b2 {
+    padding: 50px 0 0;
+}
+.b2 .button-m {
+    margin: 0 auto -37px;
+}
+.char {
+    margin-bottom: 15px;
+}
+.char li  { 
+    padding: 0 20px 16px;
+}
+.char p {
+    
+    overflow: hidden;
+}
+
+.char li:before {
+    float:right;
+    content:'';
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: #efbe68;
+    border-radius: 50%;
+    border:4px solid rgba(239,190,104,.2);
+    background-clip: padding-box;
+    float: right;
+    margin: 3px 10px 0 0;
+}
+/*block3*//* michael-k90 */
+.b3, .b3 h2 span {
+   background: #f2f2f2;
+}
+.b3 {
+    padding:61px 0 20px;
+}
+.helper {
+    font-size: 0;
+}
+.helper li {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+.helper img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 100px 100px 100px 0;
+}
+.helper p {
+    padding: 0 20px 20px;
+    line-height: 18px;
+}
+/*block4*//* bizlife_inc */
+.b4 {
+   padding: 20px 0;
+}
+.rev {
+    width: 440px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: #f4f4f4;
+    padding: 24px 0 0;
+}
+.rev img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+.rev h3 {
+    font-size: 16px;
+    text-align: center;
+    text-transform: none;
+    padding: 15px 0;
+}
+.rev h3:after {
+    content:'';
+    display: block;
+    background: url("stars2.png") no-repeat center top;
+    width: 100%;
+    height: 16px;
+    margin: 5px 0 0;
+}
+.rev2 h3:after {
+    background: url("") no-repeat center top;
+}
+.rev p {
+    text-align: center;
+    line-height: 30px;
+    padding: 0 20px 20px;
+}
+/*block5*//* owmen17 */
+.b5, .b5 h2 span {
+   background: #f2f2f2;
+}
+.b5 h2 span {
+    
+}
+/*block6*//* after_qbici */
+.b6 {
+   
+}
+.ship {
+    padding: 0 20px;
+}
+.ship li {
+    position: relative;
+    display: table;
+    height: 170px;
+}
+.ship li img {
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 85px 85px 85px 0;
+}
+.ship div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 190px;
+}
+.ship div h3 {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.ship div p {
+    font-size: 14px;
+}
+.ship li:nth-child(even) img {
+    left: inherit;
+    right: 0;
+}
+.ship li:nth-child(even) div {
+    padding: 0 190px 0 0;
+}
+.ship li:nth-child(even) p, .ship li:nth-child(even) h3 {
+    text-align: right;
+}
+/*block7*//* endzeit_____ */
+.b7 {
+   
+}
+/*block8*//* michael-k90 */
+.end .stock:after {
+    display: none;
+}  
+/*block9*//* bizlife_inc */
+
+/*block10*//* owmen17 */
+
+.footer {
+    text-align: center;
+    padding: 40px 0 30px;
+    background: #c5c5c5;
+}
+.footer a {
+    font-size: 14px;
+    color:#333;
+    display: block;
+    padding: 5px 0 0;
+}

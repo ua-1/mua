@@ -1,0 +1,278 @@
+/* my_presets *//* michael-k90 *//* endzeit_____ */
+.m1-form input.field:focus::-webkit-input-placeholder {opacity:0;}
+.m1-form input.field:focus::-moz-placeholder          {opacity:0;}
+.m1-form input.field:focus:-moz-placeholder           {opacity:0;}
+.m1-form input.field:focus:-ms-input-placeholder      {opacity:0;}
+.m1-form input.field::-webkit-input-placeholder {color: #222; opacity: 1;}
+.m1-form input.field:-moz-placeholder {color: #222; opacity: 1;}
+.m1-form input.field::-moz-placeholder {color: #222; opacity: 1;}
+.m1-form input.field:-ms-input-placeholder {color: #222; opacity: 1;}
+.hidden{display: none;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.just {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+p.par {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 0 20px 20px;
+}
+.img {
+    display: block;
+    margin: 0 auto 20px;
+}
+.clearfix:after, .char li:after {content: '';display: block;clear: both;}
+.clear{clear: both;height: 0px;}
+.ulfix {font-size: 0;}
+.ulfix li {font-size: 16px;}
+/* END my_presets */
+
+h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', Helvetica, sans-serif; font-weight: 700; text-transform: uppercase;line-height: 1.3em;}
+b,strong{font-weight: 700;}
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #222;
+    background: #f1f1f1;
+}
+.wrap {
+    width: 480px;
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+}
+section {
+    padding: 30px 0;
+}
+section, footer {
+	width: 100%;
+    position: relative;
+}
+.wrap:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+section:after, footer:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.m1-form input.field{
+    position: relative;
+    display: block;
+    outline: 0;
+    border: none;
+    border-radius: 38px;
+    -webkit-border-radius: 38px;
+    width: 100%;
+    height: 76px;
+    line-height: 76px;
+    margin: 0 auto 10px;
+    padding: 0 20px;
+    border: 1px solid #bcbcbc;
+    background:#fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    color: #222;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+}
+.button-m{
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 380px;
+    height: 76px;
+    line-height: 76px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 38px;
+    -webkit-border-radius: 38px;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background: #ea3838; 
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.button-m:hover{
+    
+}
+.button-m:active{
+    top:-1px;
+}
+.m1-form {
+    width: 380px;
+    margin: 0 auto -38px;
+}
+.m1-form .button-m{
+    width: 100%;
+}
+h2.title {
+    padding: 0 0 30px 20px;
+    font-size: 24px;
+    font-weight: 400;
+    background: url("orange.png") no-repeat right 46px;
+}
+h2.title > span {
+    color: #eaa938;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 30px;
+    background: #fff;
+    padding-right: 20px;
+}
+h2.title.col2 {
+    background-image: url("red.png");
+} 
+h2.title.col2 > span{
+    color:#ea3838;
+}
+.price {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: url("price.png") no-repeat center top;
+    height: 154px;
+    position: absolute;
+    left: 0;
+    top:-39px;
+}
+.old-cost {
+    float: left;
+    padding-right: 50px;
+}
+.old-cost p {
+    font-size: 32px;
+    line-height: 26px;
+}
+.old-cost p span {
+    text-decoration: line-through;
+}
+.old-cost > span, .new-cost > span {
+    font-size: 14px;
+}
+.new-cost {
+    float: right;
+    color:#fff;
+    padding-left: 50px;
+}
+.new-cost p {
+    font-size: 32px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.new-cost, .old-cost  {
+    width: 50%;
+    height: 75px;
+    padding-top: 43px;
+}
+.old-cost p small, .new-cost p small {
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+/*Таймер*/
+
+.countbox {
+    height: 70px;
+    width: 100%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+.countbox > div:last-child {
+    margin: 0;    
+}
+.countbox > div:first-child {
+    margin-left: 92.5px;    
+}
+.countbox .countbox-num {
+    float: left;
+    width: 72px;
+    height: 48px;
+    background: #26252b;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.countbox-hours, .countbox-mins, .countbox-secs {
+    color: #dddcdd;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 47px;
+    position: relative;
+}
+.countbox-hours:after, .countbox-mins:after {
+    content:':';
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top:-2px;
+    right: -22px;
+    color:#333;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    font-size: 14px;
+    text-align: center;
+    text-transform: none;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 125px;
+    display: block;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding: 0;    
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background:#f8f8f8 url("") no-repeat center center;
+    z-index: 3;
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0;
+    -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
